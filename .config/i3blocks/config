@@ -1,0 +1,13 @@
+
+[window]
+command=xtitle -s 
+interval=persist
+align=center
+
+[public-ip]
+command=wget -qO - icanhazip.com 
+interval=once
+
+[battery]
+command=~/.config/i3blocks/scripts/bat.sh
+interval=10

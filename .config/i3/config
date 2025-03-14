@@ -202,7 +202,8 @@ set $lightgray #bdae93
 # finds out, if available)
 bar {
   position top
-        status_command i3status
+       status_command i3blocks
+       # status_command i3status
   colors {
       background $bg 
       statusline $lightgray
